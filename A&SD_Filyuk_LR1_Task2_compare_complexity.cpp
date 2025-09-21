@@ -4,7 +4,7 @@
 #include <ctime>
 #include <chrono>
 #include <algorithm> // для std::sort
-#include <climits>   // для INT_MAX
+#include <climits>   
 
 // Наивный метод (O(n^2))
 int min_difference_naive(const std::vector<int>& arr) {
@@ -72,4 +72,5 @@ int main() {
                   << " | Время: " << time_opt.count() << " сек. (O(n log n))" << std::endl;
     }
     return 0;
+
 }
